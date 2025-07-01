@@ -8,7 +8,7 @@ from typing import List, Tuple, Optional
 class bsSpot:
     def __init__(self):
         self._spot = None
-        self._spot_height = 0.3
+        self._spot_height = 0.1
         self._spot_start_position = np.array([0, 0, self._spot_height])
         self._base_command = [0.0, 0.0, 0.0]
         self._world = None
